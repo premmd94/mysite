@@ -1,0 +1,99 @@
+section.header {
+    padding: 30px 0px;
+    /* background: #009688; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    transition: all 0.5s ease-in-out;
+}
+section.header.header-fix {
+    background: #009688;
+    padding: 10px 0px;
+}
+  .common-container {
+    padding: 0px 10px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Roboto-Medium';
+    text-transform: capitalize;
+}
+.header-fix .logo a > img {
+    height: 50px;
+}
+.header .logo a > img {
+    transition: all 0.5s ease-in-out;
+}
+.header-button button {
+    border: 1px solid #fff;
+    padding: 3px 5px;
+    line-height: 0px;
+    background: none;
+}
+.header-button button i {
+    font-size: 25px;
+    color: #fff;
+}
+section.sidebar {
+    background-color: #262B33;
+    width: 70px;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    z-index: 101;
+    /* top: 50px; */
+    margin-right: 0px;
+    overflow-y: auto;
+    transition: all 0.5s ease-in-out;
+}
+section.sidebar.side {
+    margin-right: -80px;
+}
+nav.side-nav {
+    height: 100%;
+    padding: 30px 0px 0px 0px;
+}
+.sidebar-content {
+    height: 100%;
+}
+nav.side-nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+nav.side-nav ul li {
+    margin: 0px 0px 40px 0px;
+}
+nav.side-nav ul li a {
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);;
+    font-family: 'Roboto-Regular';
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+nav.side-nav ul li a:hover {
+    color: #fff;
+}
+nav.side-nav li a i {
+    padding: 0px 0px 5px 0px;
+    display: block;
+    font-size: 23px;
+    text-align: center;
+}
+@media (max-width:768px){
+    section.header {
+        padding: 15px 0px;
+    }
+    section.header .logo a > img {
+        height: 40px;
+    }
+    .header-fix .logo a > img {
+        height: 50px;
+    }
+}
