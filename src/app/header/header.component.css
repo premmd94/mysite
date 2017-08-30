@@ -38,6 +38,8 @@ section.header.header-fix {
 .header-button button i {
     font-size: 25px;
     color: #fff;
+    position: relative;
+    z-index: -100;
 }
 section.sidebar {
     background-color: #262B33;

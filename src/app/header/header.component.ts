@@ -11,14 +11,16 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
     $(function(){
       $('body').click(function(event){
-        var x = $('.header-button button i');
+        
+        var x = $('.header-button button');
         if($(event.target).is(x)){
-          $('section.sidebar').toggleClass("side");
+          $('section.sidebar').stop(true, false, true).toggleClass("side");
         }
         else{
-          $('section.sidebar').addClass("side");
+          $('section.sidebar').stop(true, false, true).addClass("side");
          }
       });
     });
