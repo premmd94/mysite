@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 declare var jQuery: any;
 declare var $: any;
 declare var WOW: any;
@@ -9,8 +10,10 @@ declare var WOW: any;
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-
-  constructor() { }
+aboutme: FirebaseListObservable<any[]>;
+constructor(db: AngularFireDatabase) {
+  this.aboutme = db.list('/about/aboutme');
+}
 
   ngOnInit() {
     $(document).ready(function(){

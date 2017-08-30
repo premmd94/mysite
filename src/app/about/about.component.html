@@ -11,8 +11,7 @@
           <div class="col-md-4 about-section-align">
               <div class="about-text wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
                   <h3 class="theme-color">About Me</h3>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, .</p>
-                  <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s.</p>
+                  <p *ngFor="let about of aboutme | async" >{{about.name}}</p>
 
                   <div class="about-btn">
                       <a class="scroll-btn btn theme-color" routerLink="/">Download CV</a>

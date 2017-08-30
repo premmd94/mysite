@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyBv5emRW78hbf0tECB_8yJPfjhFulKbwzA",
-    authDomain: "angular-learn-f1f40.firebaseapp.com",
-    databaseURL: "https://angular-learn-f1f40.firebaseio.com",
-    projectId: "angular-learn-f1f40",
-    storageBucket: "angular-learn-f1f40.appspot.com",
-    messagingSenderId: "619584886111"
+    apiKey: "AIzaSyA3GGrSg1HEd0O1TQ5PL0PuYjlj33-zoz8",
+    authDomain: "premeducation-md94.firebaseapp.com",
+    databaseURL: "https://premeducation-md94.firebaseio.com",
+    projectId: "premeducation-md94",
+    storageBucket: "premeducation-md94.appspot.com",
+    messagingSenderId: "405741921600"
   }
 };
