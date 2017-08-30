@@ -1,12 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { slideInOutAnimation } from '../animations/slide-in.animatios';
 declare var $: any;
 declare var WOW: any;
 
 @Component({
   selector: 'app-services',
   templateUrl: './services.component.html',
-  styleUrls: ['./services.component.css']
+  styleUrls: ['./services.component.css'],
+  animations: [slideInOutAnimation],
+  host: { '[@slideInOutAnimation]': '' }
 })
 export class ServicesComponent implements OnInit {
   services: FirebaseListObservable<any[]>;

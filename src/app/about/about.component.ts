@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { slideInOutAnimation } from '../animations/slide-in.animatios';
 declare var jQuery: any;
 declare var $: any;
 declare var WOW: any;
@@ -7,7 +8,9 @@ declare var WOW: any;
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
+  styleUrls: ['./about.component.css'],
+  animations: [slideInOutAnimation],
+  host: { '[@slideInOutAnimation]': '' }
 })
 export class AboutComponent implements OnInit {
 aboutme: FirebaseListObservable<any[]>;
