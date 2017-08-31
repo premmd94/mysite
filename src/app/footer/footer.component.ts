@@ -12,9 +12,11 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $(function(){
+    $(function () {
       new WOW().init();
     });
+   
+
   }
 
 }
