@@ -25,6 +25,12 @@ export class HeaderComponent implements OnInit {
       });
     });
     $(function(){
+      $('nav.side-nav ul li a').on('click', function(){
+        $('body, html').animate({scrollTop: 0}, 500);
+        $('section.sidebar').stop(true, false, true).addClass("side");
+      });
+    });
+    $(function(){
       new WOW().init();
     });
     $(window).on('scroll', function(){

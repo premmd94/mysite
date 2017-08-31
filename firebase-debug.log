@@ -1,0 +1,24 @@
+[debug] [2017-08-31T17:00:22.155Z] ----------------------------------------------------------------------
+[debug] [2017-08-31T17:00:22.159Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-08-31T17:00:22.159Z] CLI Version:   3.9.2
+[debug] [2017-08-31T17:00:22.159Z] Platform:      win32
+[debug] [2017-08-31T17:00:22.159Z] Node Version:  v6.11.1
+[debug] [2017-08-31T17:00:22.160Z] Time:          Thu Aug 31 2017 22:30:22 GMT+0530 (India Standard Time)
+[debug] [2017-08-31T17:00:22.160Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-31T17:00:22.178Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-31T17:00:22.178Z] > authorizing via signed-in user
+[debug] [2017-08-31T17:00:22.182Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/premeducation-md94  
+ Thu Aug 31 2017 22:30:22 GMT+0530 (India Standard Time)
+[debug] [2017-08-31T17:00:27.296Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-31T17:00:27.299Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/premeducation-md94/tokens  
+ Thu Aug 31 2017 22:30:27 GMT+0530 (India Standard Time)
+[debug] [2017-08-31T17:00:28.394Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'premeducation-md94'...
+[info] 
+[info] i  deploying database, hosting
+[info] +  database: rules ready to deploy.
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2017-08-31T17:00:39.272Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/premeducation-md94/uploads/-KstEBUWEio0w1ShKor8?fileCount=110&message=  
+ Thu Aug 31 2017 22:30:39 GMT+0530 (India Standard Time)
