@@ -18,6 +18,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 import {Component, Input, Pipe, PipeTransform} from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { YoutubeComponent } from './youtube/youtube.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContactComponent,
     ServicesComponent,
     FooterComponent,
-    WorksComponent
+    WorksComponent,
+    YoutubeComponent
     
   ],
   imports: [

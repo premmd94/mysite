@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { WorksComponent } from './works/works.component';
+import { YoutubeComponent } from'./youtube/youtube.component';
 export const appRoutes: Routes = [
   {
     path: '',
@@ -30,6 +31,10 @@ export const appRoutes: Routes = [
   {
     path: 'works',
     component: WorksComponent
+  },
+  {
+    path: 'youtube',
+    component: YoutubeComponent
   },
   {
     path: '**',
