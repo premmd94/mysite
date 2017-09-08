@@ -1741,6 +1741,22 @@ NOTE: This is main stylesheet of the template.
      font-weight: 300;
      text-transform: uppercase;
  }
+ section.youtube-section {
+    padding: 90px 0px;
+}
+.youtube-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.youtube-col iframe {
+    width: 100%;
+    height: auto;
+}
+.youtube-col {
+    width: calc(25% - 15px);
+    margin: 0px 0px 15px 0px;
+}
  @media (max-width: 768px){
     section.about-section.about {
         position: relative;
