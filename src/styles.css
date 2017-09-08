@@ -1595,6 +1595,40 @@ NOTE: This is main stylesheet of the template.
  .contact-form .form-group {
      margin-bottom: 20px;
  }
+ .row.course-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.course-col {
+    width: calc(25% - 15px);
+    margin: 0px 0px 15px 0px;
+    background: #fff;
+}
+.course-detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+.course-contents {
+    padding: 15px 10px;
+}
+.course-detail p {
+    font-size: 14px;
+    color: #222;
+    margin: 0px 0px 0px 0px;
+}
+.course-col h5 {
+    font-size: 19px;
+    margin: 0px 0px 15px 0px;
+    text-transform: capitalize;
+}
+.course-detail p i {
+    padding: 0px 5px 0px 0px;
+}
+.course-detail p span {
+    color: #009688;
+}
 
  .form-control {
      padding: 15px;

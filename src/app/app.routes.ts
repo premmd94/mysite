@@ -6,6 +6,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { WorksComponent } from './works/works.component';
 import { YoutubeComponent } from'./youtube/youtube.component';
+import { CourseComponent } from'./course/course.component';
 export const appRoutes: Routes = [
   {
     path: '',
@@ -19,6 +20,10 @@ export const appRoutes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'courses',
+    component: CourseComponent
   },
   {
     path: 'contact',
