@@ -142,11 +142,7 @@ NOTE: This is main stylesheet of the template.
  }
  /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
- input:-webkit-autofill,
- input:-webkit-autofill:hover,
- input:-webkit-autofill:focus {
-     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
- }
+
 
  .logo a span.theme-color {
      color: #009688;
@@ -1059,7 +1055,6 @@ NOTE: This is main stylesheet of the template.
      height: 100%;
      background: #000;
      opacity: .6;
-     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
      z-index: -1;
  }
  /*================================================
@@ -1300,9 +1295,6 @@ NOTE: This is main stylesheet of the template.
      text-transform: uppercase;
  }
 
- .btn:hover,
- a.btn:hover,
- .btn.btn-effect:hover {}
 
  .btn:focus,
  a.btn:focus {
@@ -1358,7 +1350,6 @@ NOTE: This is main stylesheet of the template.
      padding: 60px 20px;
  }
 
- .single-service:hover {}
  /*================================================
             6 QUOTES AREA
 ==================================================*/
@@ -1422,11 +1413,8 @@ NOTE: This is main stylesheet of the template.
      transition: all 0.4s ease-in-out;
  }
 
- ul.work li.active.theme-color {}
 
- ul.work li.theme-color:hover {}
 
- ul.work li.active {}
 
  .single-work {
      position: relative;
@@ -1460,7 +1448,6 @@ NOTE: This is main stylesheet of the template.
      padding: 30px;
      background: rgba(0, 0, 0, 0.7);
      opacity: 0;
-     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
      transition: all 0.5s ease-in-out;
      -webkit-transition: all 0.5s ease-in-out;
      -moz-transition: all 0.5s ease-in-out;
@@ -1468,7 +1455,6 @@ NOTE: This is main stylesheet of the template.
 
  .single-work .full-work:hover .itemHover {
      opacity: 1;
-     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
  }
 
  .single-work .full-work:hover img {
@@ -1508,7 +1494,6 @@ NOTE: This is main stylesheet of the template.
      margin-right: 10px;
  }
 
- .hover-content a:hover {}
  /*================================================
             8 TESTIMONIAL SECTION
 ==================================================*/
@@ -1636,7 +1621,6 @@ NOTE: This is main stylesheet of the template.
      box-shadow: none;
      cursor: not-allowed;
      opacity: 1;
-     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
      transition: all 0.4s ease-in-out;
  }
 
@@ -1707,7 +1691,6 @@ NOTE: This is main stylesheet of the template.
      padding: 15px 0;
  }
 
- .footer-text {}
 
  .footer-text p {
      font-size: 16px;
