@@ -1849,6 +1849,13 @@ NOTE: This is main stylesheet of the template.
         display: flex;
         flex-direction: column;
     }
+    .youtube-row {
+        flex-direction: column;
+    }
+    .youtube-col {
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+    }
  }
 
 

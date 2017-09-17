@@ -1,4 +1,4 @@
-import { Routes } from '@angular/Router';
+import { Routes } from '@angular/router';
 import { Component } from '@angular/core';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AboutComponent } from './about/about.component';
@@ -7,11 +7,13 @@ import { ServicesComponent } from './services/services.component';
 import { WorksComponent } from './works/works.component';
 import { YoutubeComponent } from'./youtube/youtube.component';
 import { CourseComponent } from'./course/course.component';
+import { AngularComponent } from'./angular/angular.component';
 export const appRoutes: Routes = [
   {
     path: '',
     redirectTo: 'dashboard',
-   pathMatch: 'full'
+    pathMatch: 'full'
+    
   },
   {
     path: 'dashboard',
@@ -40,6 +42,10 @@ export const appRoutes: Routes = [
   {
     path: 'youtube',
     component: YoutubeComponent
+  },
+  {
+    path: 'angular4',
+    component: AngularComponent
   },
   {
     path: '**',

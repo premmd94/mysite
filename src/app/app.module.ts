@@ -20,6 +20,7 @@ import {Component, Input, Pipe, PipeTransform} from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { YoutubeComponent } from './youtube/youtube.component';
 import { CourseComponent } from './course/course.component';
+import { AngularComponent } from './angular/angular.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { CourseComponent } from './course/course.component';
     FooterComponent,
     WorksComponent,
     YoutubeComponent,
-    CourseComponent
+    CourseComponent,
+    AngularComponent
     
   ],
   imports: [
